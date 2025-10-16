@@ -5,4 +5,4 @@ scrape_configs:
   - job_name: 'crypto-arbitrage'
     metrics_path: '/actuator/prometheus'
     static_configs:
-      - targets: ['https://crypto-arbitrage-qbk2.onrender.com']  # Replace with your Render app URL
+      - targets: ['crypto-arbitrage-qbk2.onrender.com']  # Replace with your Render app URL
